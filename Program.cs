@@ -54,7 +54,7 @@ namespace CadastroSeries
             {
                 var excluido = serie.retornaExcluido();
                 
-                Console.WriteLine("#Id {0}: -{1} - {2}", serie.retornaId(), serie.retornaTitulo(), excluido? "Excluido" : "";
+                Console.WriteLine("#Id {0}: -{1} - {2}", serie.retornaId(), serie.retornaTitulo(), excluido? "Excluido" : "");
             }
         }
 
